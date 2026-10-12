@@ -1,8 +1,8 @@
-# Ignorar compilados y ejecutables
-build/
-dist/
-*.class
-*.jar
+# Ignorar compilados y ejecutables en cualquier subcarpeta
+**/build/
+**/dist/
+**/*.class
+**/*.jar
 
-# Ignorar configuraciones privadas de NetBeans
-nbproject/private/
+# Ignorar configuraciones privadas de NetBeans en cualquier subcarpeta
+**/nbproject/private/
